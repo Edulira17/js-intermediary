@@ -97,3 +97,13 @@ try {
 
 // Assertions = são quando os tratamentos de valores passados pelo usuário, germa um erro;
 // Porém este recurso tem como objetivo nos ajudar no desenvolvimento do programa, ou seja, seria algo para os devs e nao para os usuarios.
+function checkArray(arr){
+    if(arr.length === 0 ){
+        throw new Error("O array precisa ter elementos")
+    }else{
+        console.log(`O array tem ${arr.length} elementos`)
+    } 
+}
+
+// checkArray([])
+checkArray([1, 2, 3])

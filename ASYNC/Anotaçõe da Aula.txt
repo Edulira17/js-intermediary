@@ -1,0 +1,16 @@
+O que é Programação Assíncrona ?
+
+1- A programação assíncrona precisa ser utilizada quando as respostas não são obtidas de forma imediata no programa;
+
+2- Chamadas a uma API são assíncronas, não sabemos quanto tempo de resposta pode demorar;
+
+3- Até agora utilizamos só instruções síncronas;
+
+4- Na programação assíncrona as execuções não ocorrem em formato de fila, e sim no seu tempo.
+
+
+// Promise
+
+Promise.resolve =  Promise é o objeto principal para criar as promises; .resolve é o metodo que vai "resolver" nossa expressão inicial
+
+.then = leva a promise em diante, como se tivesse criando varias funções dentro do metodo para resolver o problema
