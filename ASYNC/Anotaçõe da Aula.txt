@@ -14,3 +14,10 @@ O que é Programação Assíncrona ?
 Promise.resolve =  Promise é o objeto principal para criar as promises; .resolve é o metodo que vai "resolver" nossa expressão inicial
 
 .then = leva a promise em diante, como se tivesse criando varias funções dentro do metodo para resolver o problema
+
+// Async Functions 
+- São funções que retornam promises;
+- Consequentemente há a possibilidade de receber o resultado delas depoism além da utilização dos metodos de Promise;
+
+A SINTAXE MAIS UTILIZADA NO MERCADO!
+SÃO OS RECURSOS MAIS UTILIZADOS PROMISE E ASYNC FUNCTION.
