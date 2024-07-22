@@ -1,14 +1,14 @@
 // Protocolos da Web
 
 - Um protocolo é uma forma de comunicação entre computadores atráves da rede;
-- O HTTP  serve para solicitar arquivos e imagens do servidor (Hyper Text Transfer Protocol) OBS: É possivel acessar sites atraves do HTTP
+- O HTTP  serve para solicitar arquivos e imagens do servidor (Hyper Text Transfer Protocol) OBS: É possivel acessar sites atraves do HTTP.
 - SMTP: protocolo para envio de email;
 - TCP: protocolo para transferência de dados. 
 
 
 // HTML e DOM
 
-- O DOM é uma representação fieel do HTML da página;
+- O DOM é uma representação fiel do HTML da página;
 - Ele é utilizado para acessa o HTML através dos métodos e propriedades dos objetos que alteram o DOM;
 - Através dele também podemos atrelar eventos ao HTML, como click ou pressionar a teclas do mouse.
 
@@ -20,8 +20,8 @@
 - O DOM cria uma árvore do HTML, os elementso são chamados de nós; 
 
 > Temos duas formas de receber dados em forma de lista:
-    1- NodeList
-    2- HTMLCollection
+    1- NodeList;
+    2- HTMLCollection;
 
 > Metodos para manipular HTML:
     1- insertBefore: é usado para inserir um novo nó (elemento) antes de um nó existente (refe)renciado como um filho de um elemento pai específico.

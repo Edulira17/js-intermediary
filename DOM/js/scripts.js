@@ -30,6 +30,8 @@ console.log(productsQuery)
 const mainContainer = document.querySelector("#main-container")
 console.log(mainContainer)
 
+
+
 // Alterando o HTML: "insertBefore", "appendChild", "replaceChild"
 
 // insertBefore
@@ -65,4 +67,46 @@ console.log(h3)
 
 mainContainer.appendChild(h3)
 
+// Trabalhando com atributos: "getAttribute", "setAttribute"
+const firstLink = navLinks.querySelector("a")
 
+console.log(firstLink)
+
+firstLink.setAttribute("href","https://www.google.com") // Alterando o link do primeiro item da Ul
+
+console.log(firstLink.getAttribute("href"))
+
+firstLink.setAttribute("target", "_blank") // Manipulando atributos da tag Ul
+
+// Altura e largura dos elementos
+const footer = document.querySelector("footer")
+
+console.log(footer.offsetHeight)
+console.log(footer.offsetWidth)
+
+console.log(footer.clientHeight)
+console.log(footer.clientWidth)
+
+// Posição do elemento: "getClientBoundingRect" = com esse método podemos verificar as informações dos elementos como a posição do eixo x, y, altura, largura e outros.
+const product1 = products[0]
+console.log(product1.getBoundingClientRect())
+
+// CSS com JS
+
+// Alterando cor dos elementos:
+mainContainer.style.color = "red"
+
+// Alterando a cor do background:
+mainContainer.style.backgroundColor = "#333"
+
+// Adicionando um padding para o espaçamento interno do container:
+mainContainer.style.padding = "30px"
+
+// Adicionando uma margem no container:
+mainContainer.style.margin = "40px"
+
+
+// Alterando estilos de HTMLCollection
+for(const li of listItens){
+    li.style.backgroundColor = "red"
+}
