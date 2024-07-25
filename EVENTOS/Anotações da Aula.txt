@@ -44,4 +44,10 @@
 
 - Como links que nos levam a outras páginas;
 
-- Podemos remover isso com o método "preventDefault"
+- Podemos remover isso com o método "preventDefault";
+
+// Técnica de debounce
+
+- É uma técnica utilizada para fazer um evento disparar menos vezes;
+
+- Isso poupa memória do usuário, pois talvez nem sempre o evento seja necessário;
